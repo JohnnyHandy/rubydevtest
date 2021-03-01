@@ -22,9 +22,14 @@ class PortfoliosController < ApplicationController
             format.html { render :new, status: :unprocessable_entity }
           end
         end
-      end
-      def portfolio_params
-        params.require(:portfolio).permit(:title, :subtitle, :body, technologies_attributes: [:name])
+    end
+    def portfolio_params
+      params.require(:portfolio).permit(
+        :title,
+        :subtitle,
+        :body,
+        technologies_attributes: [:name]
+      )
     end
 
     def edit
