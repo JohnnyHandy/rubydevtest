@@ -53,3 +53,5 @@ gem "pg", "~> 1.2.3"
 gem 'friendly_id', '~> 5.4.0'
 
 gem 'devise'
+
+gem 'bootstrap', '~> 5.0.0.beta2'
