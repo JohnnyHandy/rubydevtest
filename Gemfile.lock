@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/JohnnyHandy/peixoto-view-tool
+  revision: 7a943298d01e73e10b7022d630d48c46f15f3053
+  specs:
+    peixoto_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -216,6 +222,7 @@ DEPENDENCIES
   friendly_id (~> 5.4.0)
   jbuilder (~> 2.7)
   listen (~> 3.3)
+  peixoto_view_tool!
   pg (~> 1.2.3)
   pry-byebug
   puma (~> 5.0)

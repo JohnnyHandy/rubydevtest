@@ -55,3 +55,5 @@ gem 'friendly_id', '~> 5.4.0'
 gem 'devise'
 
 gem 'bootstrap', '~> 5.0.0.beta2'
+
+gem 'peixoto_view_tool', git: 'https://github.com/JohnnyHandy/peixoto-view-tool'
