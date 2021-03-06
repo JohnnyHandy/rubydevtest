@@ -12,19 +12,15 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
+  <body class="text-center">
     <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+      <%= render "shared/nav", location:'top' %>
       <p class="notice"><%= notice %></p>
       <p class="alert"><%= alert %></p>
-      <%= render "shared/nav", location:'top' %>
       <main role="main" class="inner cover">
         <%= yield %>
       </main>
-      <footer class="mastfoot mt-auto">
-        <div class="inner">
-          <%= copyright_generator %>
-        </div>
-      </footer>
+      <%= render "shared/application_footer" %>
       <%= source_helper("application") %>
     </div>
   </body>
