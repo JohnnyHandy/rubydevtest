@@ -55,6 +55,7 @@ body {
 
 .masthead-brand {
   margin-bottom: 0;
+  margin-right: 5em;
 }
 
 .nav-masthead .nav-link {
@@ -117,4 +118,23 @@ body {
 
 .auth-links a {
   color: black;
+}
+
+.login > .card {
+  width: 22em;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin: 1em auto;
+}
+
+.form-group > input {
+  width: 100%;
+}
+
+.form-group .remember-box {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
 }
