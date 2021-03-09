@@ -59,3 +59,6 @@ gem 'bootstrap', '~> 5.0.0.beta2'
 gem 'peixoto_view_tool', git: 'https://github.com/JohnnyHandy/peixoto-view-tool'
 
 gem 'petergate', '~> 2.0', '>= 2.0.1'
+
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.7'
+gem 'kaminari', '~> 1.2', '>= 1.2.1'
