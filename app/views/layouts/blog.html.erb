@@ -14,9 +14,9 @@
 
   <body>
     <%= render "shared/blog_nav", location:'bottom' %>
-    <%= render "shared/blog_masthead" %>
     <%# Start of container and row %>
     <main role="main" class="container">
+        <%= render "shared/blog_masthead" %>
         <div class="row mb-2">
           <%= yield %>
 

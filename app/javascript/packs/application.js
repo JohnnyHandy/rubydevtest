@@ -6,6 +6,9 @@
 import Rails from "@rails/ujs"
 import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
+require("@fortawesome/fontawesome-free");
+import '@fortawesome/fontawesome-free/css/fontawesome.css';
+import "@fortawesome/fontawesome-free/css/all.css";
 import "channels"
 //= require jquery3
 //= require popper
