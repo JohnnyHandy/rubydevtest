@@ -3,24 +3,9 @@
       <header class="masthead mb-auto">
         <div class="inner">
           <h3 class="masthead-brand">Roger Peixoto Duarte</h3>
-            <nav class="nav nav-masthead justify-content-center">
-                 <%=  link_to "Home", root_path, :class => "nav-link" %> 
-                 <%= link_to "About", about_path, :class => "nav-link" %> 
-                 <%= link_to "Contact", contact_path, :class => "nav-link" %> 
-                 <%= link_to "Blog", blogs_path, :class => "nav-link" %> 
-                 <%= link_to "Portfolios", portfolios_path, :class => "nav-link" %> 
+            <nav class="nav nav-masthead app-nav justify-content-center">
+                <%= nav_helper 'nav-link', 'span' %>
                 <%= login_helper 'nav-link' %>
             </nav>
         </div>
       </header>
-
-      <%# <header class="masthead mb-auto">
-        <div class="inner">
-          <h3 class="masthead-brand">Cover</h3>
-          <nav class="nav nav-masthead justify-content-center">
-            <a class="nav-link active" href="#">Home</a>
-            <a class="nav-link" href="#">Features</a>
-            <a class="nav-link" href="#">Contact</a>
-          </nav>
-        </div>
-      </header> %>
