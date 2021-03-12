@@ -11,6 +11,11 @@ import '@fortawesome/fontawesome-free/css/fontawesome.css';
 import "@fortawesome/fontawesome-free/css/all.css";
 import "channels"
 require('./html.sortable')
+require('./portfolios.coffee')
+global.$ = require("jquery")
+
+require("jquery") // Don't really need to require this...
+require("jquery-ui")
 //= require jquery3
 //= require popper
 //= require bootstrap-sprockets
