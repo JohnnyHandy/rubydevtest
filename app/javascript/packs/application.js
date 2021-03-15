@@ -18,6 +18,7 @@ global.$ = require("jquery")
 
 require("jquery") // Don't really need to require this...
 require("jquery-ui")
+require("gritter/js/jquery.gritter.js")
 //= require jquery3
 //= require popper
 //= require bootstrap-sprockets
@@ -25,6 +26,7 @@ require("jquery-ui")
 //= require popper
 //= require bootstrap
 //= require jquery-ui
+
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()

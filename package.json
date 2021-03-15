@@ -10,6 +10,7 @@
     "@rails/webpacker": "5.2.1",
     "coffee-loader": "^1.0.1",
     "coffeescript": "1.12.7",
+    "gritter": "^1.7.4",
     "jquery-ui-dist": "^1.12.1",
     "turbolinks": "^5.2.0"
   },
