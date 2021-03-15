@@ -12,6 +12,8 @@ import "@fortawesome/fontawesome-free/css/all.css";
 import "channels"
 require('./html.sortable')
 require('./portfolios.coffee')
+require("jquery")
+require("@nathanvda/cocoon")
 global.$ = require("jquery")
 
 require("jquery") // Don't really need to require this...
