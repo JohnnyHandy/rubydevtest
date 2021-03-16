@@ -1,5 +1,10 @@
 Rails.application.routes.draw do
   devise_for :users, path: '', path_names: { sign_in: 'login', sign_out: 'logout', sign_up: 'register' }
+  devise_scope :user do
+    get 'logout', to: 'devise/sessions#destroy'
+    get 'login', to: 'devise/sessions#new'
+    get 'register', to: 'devise/registrations#new'
+  end
   resources :portfolios, except: [:show] do
     put :sort, on: :collection
   end

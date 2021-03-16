@@ -12,21 +12,14 @@ import "@fortawesome/fontawesome-free/css/all.css";
 import "channels"
 require('./html.sortable')
 require('./portfolios.coffee')
-require("jquery")
-require("@nathanvda/cocoon")
 global.$ = require("jquery")
-
 require("jquery") // Don't really need to require this...
 require("jquery-ui")
-require("gritter/js/jquery.gritter.js")
-//= require jquery3
-//= require popper
 //= require bootstrap-sprockets
 //= require jquery3
 //= require popper
 //= require bootstrap
 //= require jquery-ui
-
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()

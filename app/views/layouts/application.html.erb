@@ -28,7 +28,7 @@
         <%= yield %>
       </main>
       <%= render "shared/application_footer" %>
-      <%= render 'shared/alerts' %>
+      <%= notification_type_format 'alert' %>
       <%= source_helper("application") %>
     </div>
   </body>
