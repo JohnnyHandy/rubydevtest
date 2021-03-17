@@ -11,6 +11,7 @@
     "coffee-loader": "^1.0.1",
     "coffeescript": "1.12.7",
     "gritter": "^1.7.4",
+    "jquery": "^3.6.0",
     "jquery-ui-dist": "^1.12.1",
     "sweetalert2": "^10.15.5",
     "turbolinks": "^5.2.0"

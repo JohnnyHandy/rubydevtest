@@ -19,6 +19,7 @@ require("jquery-ui")
 //= require jquery3
 //= require popper
 //= require bootstrap
+//= require jquery-ui
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
